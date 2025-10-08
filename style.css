@@ -1,0 +1,92 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    color: #333;
+}
+header {
+    background: #fff;
+    text-align: center;
+    padding: 2rem 0 1rem 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #f76b1c;
+}
+.tagline {
+    font-size: 1.2rem;
+    color: #555;
+}
+section {
+    margin: 2rem auto;
+    max-width: 800px;
+    background: rgba(255,255,255,0.9);
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.07);
+    padding: 2rem;
+}
+h2 {
+    color: #f76b1c;
+    margin-top: 0;
+}
+.skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+.skills li {
+    background: #f76b1c;
+    color: #fff;
+    padding: 0.5rem 1.2rem;
+    border-radius: 20px;
+    font-weight: 500;
+}
+.project-card {
+    background: #fff7e6;
+    border-left: 5px solid #f76b1c;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.contact a {
+    color: #f76b1c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #fff;
+    color: #888;
+    font-size: 0.95rem;
+    margin-top: 2rem;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.03);
+}
+#typing-animation {
+    font-size: 1.3rem;
+    color: #f76b1c;
+    font-family: 'Courier New', Courier, monospace;
+    min-height: 2.5em;
+    margin-top: 1rem;
+    white-space: pre-line;
+}
+#courses-typing {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.05rem;
+    color: rgb(255, 0, 0);
+}
+@media (max-width: 600px) {
+    section {
+        padding: 1rem;
+    }
+    header h1 {
+        font-size: 2rem;
+    }
+}
